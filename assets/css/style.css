@@ -28,7 +28,7 @@ header {
 }
 
 .heading {
-    margin-left: 50px
+    margin-left: 50px;
 }
 
 .logo {
@@ -43,18 +43,30 @@ header {
 }
 
 .name {
-    font-family: "Exo", sans-serif;
+    font-family: "Exo" sans-serif;
     font-weight: 100;
     font-size: 46px;
     margin-top: 50px;
-    color: #ffffff
+    color: #fff
 }
 
 .title {
-    font-family: "Roboto", sans-serif;
+    font-family: "Roboto" sans-serif;
     font-weight: 200;
     font-size: 28px;
     margin-top: 20px;
     margin-bottom: 90px;
     color: #fff;
+}
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+.menucontainer {
+    font-size: 0;
+}
+
+#nav li {
+    font-size: 14px;
+    padding: 0;
 }
